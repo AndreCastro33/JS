@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz interativo</h1>
+        <p>Um quiz da aula</p>
+    </header>
+    <main>
+        <!--Introduçao-->
+        <section>
+         <h2>Introdução</h2>
+         <p>Lorem ipsum dolor sit amet <strong>consectetur adipisicing elit</strong>.<br>Repudiandae nostrum dolores autem sit, assumenda ipsam iusto nulla atque expedita id nemo harum similique fuga culpa modi totam officiis placeat velit?</p>
+         <p><abbr title="legenda da palavra">FPDSN</abbr></p>
+        </section>
+        <!--Multipla escolha-->
+        <section>
+            <h2>Pergunta 1 - Multipla escolha</h2>
+            <form>
+                <input type="radio" value="opcao1" id="p1opa" name="pergunta1">
+                    <label for="p1opa">Opção 1</label><br>
+                <input type="radio" value="opcao2" id="p1opb" name="pergunta1">
+                    <label for="p1opb">Opção 2</label><br>
+                <input type="radio" value="opcao3" id="p1opc" name="pergunta1">
+                    <label for="p1opc">Opção 3</label><br>
+                <input type="radio" name="pergunta1" id="p1opd">
+                    <label for="p1opd">Opção 4</label>
+            </form>
+        </section>
+        <!--Pergunta 2-->
+        <section>
+            <h2>Pegunta 2 - Texto</h2>
+            <form>
+                <input type="text" name="pergunta2" id="p2texto" placeholder="Digite sua resposta">
+            </form>
+        </section>
+        <!--Pergunta 3 Senha-->
+        <section>
+            <h3>Digite uma senha:</h3>
+            <form>
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+            </form>
+        </section>
+        <!--Data-->
+        <section>
+            <h3>Data:</h3>
+            <form>
+                <input type="date" name="data1" id="data">
+            </form>
+
+        </section>
+        <!--Opção multipla/checkout-->
+        <section>
+            <form>
+                <h2>Quais opções são corretas?:</h2>
+                <input type="checkbox" name="check1" id="opm1" value="op1">
+                    <label for="opm1">Opção 1</label><br>
+                <input type="checkbox" name="check2" id="opm2" value="op2">
+                    <label for="opm2">Opção 2</label><br>
+                <input type="checkbox" name="check3" id="opm3" value="op3">
+                    <label for="opm3">Opção 3</label><br>
+                <input type="checkbox" name="check4" id="opm4" value="op4">
+                    <label for="opm4">Opção 4</label>
+            </form>
+        </section>
+        <!--Upload de arquivo-->
+        <section>
+            <h2>Upload de arquivo</h2>
+            <form>
+                <input type="file" name="upload" id="uparquivo">
+            </form>
+        </section>
+        <!--Menuzinho-->
+        <section>
+            <h2>Quais os tipos de input?</h2>
+            <form>
+                <select name="selecaomenu" id="menu">
+                    <option value="id">Id</option>
+                    <option value="file">File</option>
+                    <option value="password">Password</option>
+                    <option value="Text">Text</option>
+                    <option value="Checkout">Checkout</option>
+                    <option value="Radio">Radio</option>
+                    <option value="Todos">Todos</option>
+                </select>
+            </form>
+        </section>
+        <!--Imagem-->
+        <section>
+            <h2>O que é a imagem da foto?</h2>
+            <figure>
+            <img src="./img/lc.png" alt="">
+                <figcaption>Logotipo de um canal do YouTube</figcaption>
+            </figure>
+            <form>
+                <input type="radio" name="respimg" id="ri">
+                    <label for="ri">Dede</label><br>
+                <input type="radio" name="respimg2" id="ri2">
+                    <label for="ri2">Dede do chevette carai</label><br>
+                <input type="radio" name="respimg3" id="ri3">
+                    <label for="ri3">Fodass</label>
+            </form>
+        </section>
+    </main>   
+    <footer>
+
+    </footer> 
+</body>
+</html>

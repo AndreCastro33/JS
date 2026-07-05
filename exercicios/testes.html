@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testeJS</title>
+</head>
+<body>
+    <h1>Ola mundo</h1>
+    <p>testes da aula guanabara - paragrafo 1</p>
+    <p>paragrafo 2</p>
+    <p id="p2">paragrafo 3</p>
+    <script>
+        document.write ("URL atual:")
+        document.write (document.URL)
+        let p = document.getElementsByTagName("p")[0]
+        let b = document.body
+        let p2 = document.getElementById('p2')
+        document.write(p.innerText)
+        document.write(p2.innerHTML)
+
+        p.style.color = "blue"
+        b.style.background = 'green'
+    </script>
+</body>
+</html>

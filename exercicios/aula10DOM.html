@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testesjs2</title>
+    <style>
+        div#div1 {
+            font: normal 20pt arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        Interaja        
+    </div>
+
+    <script>
+        let click = document.getElementById('div1')
+        click.addEventListener('click', clicar)
+        click.addEventListener('mouseenter', mouse)
+        click.addEventListener('mouseout', msair)
+
+        function clicar() {
+            click.innerText = ('Toma curioso')
+            click.style.background = 'red'
+        }
+        function mouse(){
+            click.innerText = ('Clique para alterar')
+        }
+        function msair() {
+            click.innerText = ('Saiu')
+            click.style.background = 'green'
+        }
+    </script>
+</body>
+</html>

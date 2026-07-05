@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula10ex02</title>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <label for="p1">Primeiro numero</label><br>
+    <input type="number" name="pergunta1" id="p1"><br>+<br>
+    <label for="p2">Segundo numero</label><br>
+    <input type="number" name="pergunta1" id="p2">
+    <input type="button" name="pergunta1" value="Somar" id="bot1" onclick="somar()">
+    <h2>Resultado:</h2>
+    <h3 id="res">0</h3>
+    
+    <script>
+        function somar() {
+            let r = document.getElementById('res')
+            let n1 = document.getElementById('p1')
+            let n2 = document.getElementById('p2')
+            let nn1 = Number.parseInt(n1.value)
+            let nn2 = Number.parseInt(n2.value)
+            let s = nn1 + nn2
+            r.innerHTML = s
+        }
+    </script>
+</body>
+</html>

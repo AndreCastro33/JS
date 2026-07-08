@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <input type="text" name="nact" id="naci">
+    <input type="button" name="botao" id="bot" value="Verificar" onclick="clicar()">
+    <div id="div">
+
+    </div>
+
+    <script>
+        function clicar () {
+            var na = document.getElementById('naci')
+            var na1 = String(na.value)
+            var d = document.getElementById('div')
+            if (na1.toLowerCase() != 'brasil') {
+                d.innerHTML = ('<p>Não é brasileiro</p>')
+            }else {
+                d.innerHTML = ('<p>Brasileiro</p>')
+            }
+        }
+    </script>
+</body>
+</html>

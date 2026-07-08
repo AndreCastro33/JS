@@ -14,7 +14,7 @@
     <input type="button" name="pergunta1" value="Somar" id="bot1" onclick="somar()">
     <h2>Resultado:</h2>
     <h3 id="res">0</h3>
-    
+
     <script>
         function somar() {
             let r = document.getElementById('res')
@@ -23,7 +23,7 @@
             let nn1 = Number.parseInt(n1.value)
             let nn2 = Number.parseInt(n2.value)
             let s = nn1 + nn2
-            r.innerHTML = s
+            r.innerHTML = `A soma entre ${nn1} e ${nn2} é ${s}`
         }
     </script>
 </body>

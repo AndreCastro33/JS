@@ -1,0 +1,33 @@
+body {
+
+}
+
+header {
+    text-align: center;
+    background-color: antiquewhite;
+    width: 300pt;
+    margin: auto;
+}
+
+#visual {
+    background-color: rgb(214, 245, 102);
+    width: 500pt;
+    border-radius: 10pt;
+    text-align: center;
+    box-shadow: 5pt 5pt 10pt black;
+    margin: auto;
+    margin-bottom: 30pt;
+    padding: 10pt;
+}
+
+#imagemm {
+    
+}
+
+footer {
+    background-color: beige;
+    padding: 01px;
+    width: 140pt;
+    margin: auto;
+    text-align: center;
+}

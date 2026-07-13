@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+
+}
+
+section {
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    width: 500pt;
+    margin: auto;
+    padding-bottom: 30pt;
+    padding-top: 20pt;
+    border-radius: 10pt;
+}
+
+footer {
+
+}

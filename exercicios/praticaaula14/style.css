@@ -1,0 +1,26 @@
+#hd {
+    text-align: center;
+}
+
+#sec {
+    margin: auto;
+    background-color: rgb(84, 197, 197);
+    width: 700px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px;
+}
+
+#dv1 {
+    text-align:left;
+    padding: 5px;
+}
+
+.bot {
+    margin: 30px auto;
+    padding: 5px;
+    display: block;
+
+}

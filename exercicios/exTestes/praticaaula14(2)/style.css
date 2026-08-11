@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+}
+
+#sec {
+    background-color: rgb(93, 131, 245);
+    width: 500px;
+    margin: auto;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    padding: 5px;
+}
+
+#dv1 {
+    text-align: center;
+    padding: 5px;
+}
+
+#dv2 {
+    margin: auto;
+    text-align: center;
+}

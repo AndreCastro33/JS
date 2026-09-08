@@ -10,22 +10,27 @@ let botao = document.createElement('button')
     botao.onclick = clickAdd
 div1.appendChild(botao)
 let num = []
-//----------------------------------------//
-//DIV 2 - Results ---------------------//
-let div2 = document.getElementById('dv2')
+let div1c = document.getElementById('dv1')
 let ctxt2 = document.createElement('select')
     ctxt2.size = '10'
     ctxt2.classList.add('ctxt2')
-    div2.appendChild(ctxt2)
+    div1c.appendChild(ctxt2)
 let botao2 = document.createElement('button')
     botao2.textContent = 'Analisar'
     botao2.classList.add('botao2')
     botao2.onclick = clickAn
-    div2.appendChild(botao2)
+    div1c.appendChild(botao2)
+//----------------------------------------//
+//DIV 2 - Results ---------------------//
+let div2 = document.getElementById('dv2')
+    div2.classList.add('div2')
 let totaln = 0
+let soma = 0
 let p = document.createElement('p')
 let mv = document.createElement('p')
 let menv = document.createElement('p')
+let txtsoma = document.createElement('p')
+let txtmedia = document.createElement('p')
 //------------------------------------//
 //Functions -----------------------------//
 function clickAdd() {
@@ -49,12 +54,14 @@ function clickAdd() {
         ctxt2.appendChild(item)
         num.push(ntxt)
         totaln += 1
+        soma += ntxt
+        div2.innerHTML = ''
     }
     if (ntxt > maiorv) {
         maiorv = ntxt
     }
     }
-    function clickAn() {
+    function clickAn() {  
         if (num.length == 0) {
             alert('Digite pelo menos um número.')
             return
@@ -69,12 +76,17 @@ function clickAdd() {
                 maiorv = num[c]
             }
         }
+        let media = (soma/totaln)
         p.innerText = `Total de números digitados: ${totaln}`
         div2.appendChild(p)
         mv.innerText = `Maior valor digitado: ${maiorv}`
         div2.appendChild(mv)
         menv.innerText = `Menor valor digitado: ${menorv}`
         div2.appendChild(menv)
+        txtsoma.innerText = `Soma dos números: ${soma}`
+        div2.appendChild(txtsoma)
+        txtmedia.innerText = `Média dos valores: ${media}`
+        div2.appendChild(txtmedia)
     }
 //--------------------------------------//
     

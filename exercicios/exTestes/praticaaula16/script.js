@@ -8,7 +8,7 @@ let botao = document.createElement('button')
     botao.textContent = 'Adicionar'
     botao.style.marginLeft = '10px'
     botao.onclick = clickAdd
-div1.appendChild(botao)
+    div1.appendChild(botao)
 let num = []
 let div1c = document.getElementById('dv1')
 let ctxt2 = document.createElement('select')

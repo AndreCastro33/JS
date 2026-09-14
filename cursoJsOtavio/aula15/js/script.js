@@ -1,0 +1,16 @@
+let num = Number(prompt('Digite um numero:'));
+const section = document.getElementById('sec');
+section.innerHTML += `<h1>O número digitado foi: ${num}</h1>`;
+let raizQ = num ** 0.5;
+    raizQ = raizQ.toFixed(2);
+section.innerHTML += `<p>Raiz quadrada de ${num}: <strong>${raizQ}</strong></p>`;
+let inteiro = Number.isInteger(num);
+section.innerHTML += `<p>O número ${num} é inteiro?: <strong>${inteiro}</strong></p>`;
+let nan = Number.isNaN(num);
+section.innerHTML += `<p>É um texto?: <strong>${nan}</strong></p>`;
+let baixo = Math.floor(num);  // Arredondar para baixo
+section.innerHTML += `<p>Arredondando para baixo: ${baixo}</p>`;
+let cima = Math.ceil(num);   //Arredondar para cima
+section.innerHTML += `<p>Arredondando para cima: ${cima}</p>`;
+let decimal = num.toFixed(2);   //Duas casas decimais
+section.innerHTML += `<p>Com duas casas decimais: ${decimal}</p>`;

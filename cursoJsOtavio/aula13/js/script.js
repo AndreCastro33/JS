@@ -1,0 +1,11 @@
+let nome = prompt('Digite seu nome completo:');
+let html = document.getElementById('body');
+html.innerHTML += `Seu nome é ${nome}<br/>`;
+html.innerHTML += `Seu nome tem ${nome.length} letras<br/>`;
+html.innerHTML += `A segunda letra do seu nome é ${nome.charAt(1)}<br/>`;
+html.innerHTML += `O primeiro indice da letra E no seu nome é ${nome.indexOf('e')}<br/>`;
+html.innerHTML += `O ultimo indice da letra E no seu nome é ${nome.lastIndexOf('e')}<br/>`;
+html.innerHTML += `As ultimas 3 letras do seu nome são ${nome.slice(-3)}<br/>`;
+html.innerHTML += `As palavras do seu nome são ${nome.split(' ')}<br/>`;
+html.innerHTML += `Seu nome com letras maiusculas é ${nome.toUpperCase()}<br/>`;
+html.innerHTML += `Seu nome com letras minusculas é ${nome.toLowerCase()}<br/>`;

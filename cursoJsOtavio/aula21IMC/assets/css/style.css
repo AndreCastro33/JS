@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(89, 137, 179);
+}
+
+#section {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 645px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 5px 5px 5px;
+}
+
+.txtH {
+    width: 320px;
+    height:;
+}
+
+.txtH2 {
+    width: 320px;
+    height:;
+}
+
+.txtImc {
+    width: 300px;
+    background-color: rgb(214, 243, 250);
+    border-radius: 10px;
+    padding: 10px;
+}       
+
+.txtResult {
+    width: 300px;
+    background-color: rgb(214, 243, 250);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.txtPeso {
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+.cxPeso {
+    width: 600px;
+    height: 30px;
+}
+
+.txtAltura {
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+.cxAltura {
+    width: 600px;
+    height: 30px;
+}
+
+.botao {
+    width: 610px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.resultadoTxt {
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+.cxResultado {
+    
+}

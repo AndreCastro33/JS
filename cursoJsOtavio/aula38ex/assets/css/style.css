@@ -7,4 +7,11 @@ body {
     border-radius: 10px;
     width: 600px;
     margin: auto;
+    text-align: center;
+}
+
+#dv1 {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
 }

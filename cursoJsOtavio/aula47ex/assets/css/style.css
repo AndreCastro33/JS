@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(26, 86, 97);
+}
+
+#sec {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.p1 {
+    font-size: 60px;
+    text-align: center;
+}

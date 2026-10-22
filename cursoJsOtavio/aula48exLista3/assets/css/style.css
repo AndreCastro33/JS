@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(21, 135, 155);
+}
+
+#sec {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#dv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.txtBox {
+width: 200px;
+}
+
+.buttonAdd {
+width: 150px;
+}
+
+.elDivP {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.bDel {
+    height: 20px;
+    margin-top: 16px;
+}

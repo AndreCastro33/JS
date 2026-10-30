@@ -7,13 +7,12 @@ body {
     border-radius: 10px;
     width: 600px;
     margin: auto;
-    padding: 5px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .calculator {
     width: 400px;
+    margin: 0 auto;
 }
 
 .display {

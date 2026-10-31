@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(26, 86, 97);
+}
+
+#sec {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.calculator {
+    width: 500px;
+    margin: auto;
+}
+
+.display {
+    font-size: 35px;
+    width: 500px;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    background-color: #d0cece;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b5b4b4;
+}
+
+
+td {
+    width: 25%;
+}

@@ -1,3 +1,4 @@
+// Calculator with factory function
 function calc() {
     return {
         display: document.querySelector('.display'),
